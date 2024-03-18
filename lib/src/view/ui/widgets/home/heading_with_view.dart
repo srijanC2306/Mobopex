@@ -27,7 +27,7 @@ class HeadingWithView extends StatelessWidget {
                   color: ColorConstants.primaryColor)
 
           ) ,
-          Text('See All' ,
+          Text('See Alls' ,
           style: BaseTextStyle(
             color: ColorConstants.textColor ,
             fontSize: 15  ,
