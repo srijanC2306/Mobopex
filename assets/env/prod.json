@@ -1,0 +1,5 @@
+{
+  "staticBaseUrl": "https://prod.com",
+  "logEnabled": false,
+  "dbPassword": "db2drowssap"
+}

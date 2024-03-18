@@ -1,0 +1,16 @@
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.debug.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.debug-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.debug-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.debug-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.debug.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.debug-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.debug-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.debug-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.debug.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.debug-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.debug-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.debug-prod.xcconfig"
+
+#include "Generated.xcconfig"

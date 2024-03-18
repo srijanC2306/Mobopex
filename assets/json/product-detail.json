@@ -1,0 +1,37 @@
+[
+  {
+    "productName": "Tempered Glass Screen Protector for iPhone 12",
+    "description": "Premium quality tempered glass screen protector for iPhone 12.",
+    "imageUrl": "https://via.placeholder.com/300/09f/fff.png?text=Tempered+Glass+iPhone+12",
+    "priceFallInPercentage": "10%",
+    "actualPrice": "$9.99"
+  },
+  {
+    "productName": "Samsung Galaxy S20 Tempered Glass",
+    "description": "Protective tempered glass for Samsung Galaxy S20.",
+    "imageUrl": "https://via.placeholder.com/300/ff0/000.png?text=Tempered+Glass+Galaxy+S20",
+    "priceFallInPercentage": "15%",
+    "actualPrice": "$12.99"
+  },
+  {
+    "productName": "Tempered Glass Screen Protector for iPad Pro",
+    "description": "Crystal clear tempered glass protector for iPad Pro.",
+    "imageUrl": "https://via.placeholder.com/300/0af/333.png?text=Tempered+Glass+iPad+Pro",
+    "priceFallInPercentage": "12%",
+    "actualPrice": "$17.49"
+  },
+  {
+    "productName": "OnePlus 9 Pro Tempered Glass",
+    "description": "Durable tempered glass screen protector for OnePlus 9 Pro.",
+    "imageUrl": "https://via.placeholder.com/300/f0f/f00.png?text=Tempered+Glass+OnePlus+9+Pro",
+    "priceFallInPercentage": "20%",
+    "actualPrice": "$14.99"
+  },
+  {
+    "productName": "Tempered Glass Screen Protector for Google Pixel 5",
+    "description": "High-quality tempered glass protector for Google Pixel 5.",
+    "imageUrl": "https://via.placeholder.com/300/0ff/111.png?text=Tempered+Glass+Pixel+5",
+    "priceFallInPercentage": "18%",
+    "actualPrice": "$11.49"
+  }
+]

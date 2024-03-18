@@ -1,0 +1,32 @@
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.release.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.release-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.release-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.release-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.release.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.release-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.release-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.release-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.release.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.release-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.release-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.release-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.profile.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.profile-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.profile-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-dev/Pods-dev.profile-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.profile.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.profile-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.profile-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-prod/Pods-prod.profile-prod.xcconfig"
+
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.profile.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.profile-dev.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.profile-uat.xcconfig"
+#include? "Pods/Target Support Files/Pods-uat/Pods-uat.profile-prod.xcconfig"
+
+#include "Generated.xcconfig"
