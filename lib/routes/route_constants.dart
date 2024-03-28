@@ -10,6 +10,8 @@ class RouteConstants {
   /* Login & SignUp */
   static const loginRoute = "/login";
   static const signupRoute = "/signup";
+  static const productDetailRoute = "/lib/src/view/ui/screens/navigation/home/product_page.dart";
+  static const dashboard = "/lib/src/view/ui/screens/dashboard/dashboard.dart";
 
   /* Home & Profile */
   static const homeRoute = "/home";

@@ -4,7 +4,10 @@ import 'package:MoboPex/src/view/ui/widgets/price/price_widget.dart';
 import 'package:MoboPex/src/view_model/dashboard/home/top_pick/top_pick_controller.dart';
 
 class TopPickPageDetails extends StatelessWidget {
-  TopPickPageDetails({super.key});
+  final NavigatorState navigatorState ;
+  TopPickPageDetails({
+    required this.navigatorState ,
+    super.key});
 
   final topPickController = Get.put(TopPickController());
 
@@ -12,7 +15,7 @@ class TopPickPageDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         body: Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 15.0),
+      padding: const EdgeInsets.symmetric(horizontal: 15.0 , vertical: 16),
       child: Obx(
         () => Column(
           crossAxisAlignment: CrossAxisAlignment.start,
@@ -21,7 +24,9 @@ class TopPickPageDetails extends StatelessWidget {
           children: [
             Heading(
               headingTxt: "Top Picks",
-              onPressedBackBtn: () {},
+              onPressedBackBtn: () {
+                navigatorState.pop();
+              },
               isSearching: topPickController.searchController.isSearching.value,
               onChanged: (value) {},
             ),

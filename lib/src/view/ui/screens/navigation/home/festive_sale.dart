@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:MoboPex/src/core/theme/custom_theme_extension.dart';
 
 import '../../../../base_stateless_widget.dart';
 import '../../../widgets/home/heading_with_time.dart';
@@ -8,29 +8,33 @@ class FestiveSale extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      mainAxisAlignment: MainAxisAlignment.start,
-      children: [
-         HeadingWithTimer(heading: "Festive Sale" , endTime:
-        DateTime.now().add( const Duration(days: 5 , hours: 3 , minutes: 30)),),
-        const SizedBox(height: 24,),
-        SizedBox(
-          height: 200,
-          child: ListView.builder(
-             scrollDirection: Axis.horizontal,
-              itemCount: 10,
-              shrinkWrap: true,
-              itemBuilder: (context, index) {
-                return const FestiveSaleItem(
-                  imageSrc:
-                      "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
-                  heading: "Product X",
-                  description: 'A description ...',
-                );
-              }),
-        ),
-      ],
+    final theme = Theme.of(context) ;
+    return SizedBox(
+      height: 250,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: [
+           HeadingWithTimer(heading: "Festive Sale" , endTime:
+          DateTime.now().add( const Duration(days: 5 , hours: 3 , minutes: 30)),),
+           SizedBox(height: 12,),
+          SizedBox(
+            height: 200,
+            child: ListView.builder(
+               scrollDirection: Axis.horizontal,
+                itemCount: 10,
+                shrinkWrap: true,
+                itemBuilder: (context, index) {
+                  return const FestiveSaleItem(
+                    imageSrc:
+                        "https://upload.wikimedia.org/wikipedia/commons/b/b6/Image_created_with_a_mobile_phone.png",
+                    heading: "Product X",
+                    description: 'A description ...',
+                  );
+                }),
+          ),
+        ],
+      ),
     );
   }
 }

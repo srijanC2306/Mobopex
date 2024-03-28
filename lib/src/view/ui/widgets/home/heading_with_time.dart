@@ -26,7 +26,7 @@ class HeadingWithTimer extends StatelessWidget {
         children: [
           Text(heading ,
               style: const BaseTextStyle(
-                  fontSize: 24,
+                  fontSize: 16,
                   fontWeight: FontWeight.w700,
                   color: ColorConstants.primaryColor)
 

@@ -45,7 +45,7 @@ dependencies:
   # To render SVG images
   flutter_svg: ^2.0.9
   # Show images from the internet and keep them in the cache directory.
-  cached_network_image:
+  cached_network_image: ^3.3.1
   # To fetch Device Information
   device_info:
   # To fetch application package details
@@ -57,6 +57,7 @@ dependencies:
   flutter_switch: ^0.3.2
   file_picker: ^6.2.0
   image: ^4.1.7
+  gif: ^2.3.0
 
   sqflite: any
   carousel_slider: ^4.2.1

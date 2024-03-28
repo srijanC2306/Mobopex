@@ -13,6 +13,10 @@ class AssetConstants {
   static const String icLogo = '$_rootIconsPathImage/ic_logo.png';
   static const String icLogoPrimary = '$_rootIconsPathImage/ic-logo-primary.png';
   static const String splashGIF = '$_rootIconsPathImage/splash_gif.gif';
+  static const String headphonePlaceholder = '$_rootIconsPathImage/headphone.png';
+  static const String star = '$_rootIconsPathImage/star.png';
+  static const String notification = '$_rootIconsPathImage/notification.png';
+  static const String profilePicture = '$_rootIconsPathImage/profile_pic.jpeg';
 
 
   //************JSON**************
