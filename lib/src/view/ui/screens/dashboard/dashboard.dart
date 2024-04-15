@@ -5,6 +5,7 @@ import 'package:MoboPex/src/view/ui/widgets/dashboard/dashboard_tab.dart';
 import 'package:flutter/material.dart';
 
 import '../navigation/notification/notification_page.dart';
+import '../navigation/product_cart/product_cart.dart';
 
 class Dashboard extends StatefulWidget {
   const Dashboard({super.key});
@@ -32,13 +33,11 @@ class _DashboardState extends State<Dashboard> {
       DashboardTab(
           icon: Icons.notifications,
           selectedIcon: Icons.notifications_active,
-          widget: NavigationPage()),
+          widget: NotificationPage()),
       DashboardTab(
           icon: Icons.shopping_cart_outlined,
           selectedIcon: Icons.shopping_cart_rounded,
-          widget: Container(
-            color: Colors.yellow,
-          )),
+          widget: ProductCartPage()),
       DashboardTab(
           icon: Icons.person,
           selectedIcon: Icons.person,

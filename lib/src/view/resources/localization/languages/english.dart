@@ -9,7 +9,7 @@ class English {
     TranslationKeys.serverErrorTitle: "Server Error",
     TranslationKeys.somethingWentWrong:
         "Looks like something went wrong. Please try again",
-    TranslationKeys.serverUnderMaintenance:
+      TranslationKeys.serverUnderMaintenance:
         "Server is under maintenance. Please try again in sometime",
     TranslationKeys.technicalIssue:
         "There may be a technical issue at our end. Please try again in sometime",

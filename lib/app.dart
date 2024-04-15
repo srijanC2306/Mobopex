@@ -13,6 +13,8 @@ import 'environment.dart';
 
 
 GlobalKey<NavigatorState> dashboardNavKey = GlobalKey<NavigatorState>();
+GlobalKey<NavigatorState> globalNavKey = GlobalKey<NavigatorState>();
+
 Future<void> app(String env) async {
   WidgetsFlutterBinding.ensureInitialized();
   MapperFactory.initialize();
@@ -26,6 +28,7 @@ Widget get _getMaterialApp => GetMaterialApp(
       debugShowCheckedModeBanner: false,
       translations: AppTranslations(),
       locale: Get.deviceLocale,
+      navigatorKey: globalNavKey,
       fallbackLocale:
           const Locale.fromSubtags(languageCode: 'en', countryCode: 'US'),
       getPages: Routes.get(),
@@ -72,10 +75,11 @@ class MaterialApp extends StatelessWidget {
           //themeMode: ThemeMode.system,
           //AppPreferences.instance.isDarkMode ? ThemeMode.dark : ThemeMode.light,
           //defaultTransition: Transition.rightToLeft,
-          initialRoute: RouteConstants.splash,
+          initialRoute: RouteConstants.dashboard,
           // home: Test_Screen(),
         );
       }
     );;
   }
 }
+

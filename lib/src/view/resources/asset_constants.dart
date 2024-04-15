@@ -17,6 +17,9 @@ class AssetConstants {
   static const String star = '$_rootIconsPathImage/star.png';
   static const String notification = '$_rootIconsPathImage/notification.png';
   static const String profilePicture = '$_rootIconsPathImage/profile_pic.jpeg';
+  static const String airpodsPicture = '$_rootIconsPathImage/airpods_placeholder.png';
+  static const String iphonePLaceHolder = '$_rootIconsPathImage/iphone_placeholder.png';
+  static const String phonePLaceHolder = '$_rootIconsPathImage/phone_placeholder.png';
 
 
   //************JSON**************

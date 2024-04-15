@@ -2,9 +2,9 @@ import 'package:MoboPex/src/view/base_stateless_widget.dart';
 import 'package:MoboPex/src/view/resources/resources.dart';
 
 
-class NavigationPage extends StatelessWidget {
+class NotificationPage extends StatelessWidget {
 
-  const NavigationPage({super.key});
+  const NotificationPage({super.key});
 
   @override
   Widget build(BuildContext context) {

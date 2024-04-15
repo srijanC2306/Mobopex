@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen>
 
     // _sampleImageColor() ;
     Future.delayed(const Duration(seconds: 6), () {
-      Get.offAllNamed(RouteConstants.dashboard);
+      Get.offAllNamed(RouteConstants.loginRoute);
     });
   }
 

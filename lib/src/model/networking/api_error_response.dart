@@ -15,6 +15,7 @@ mixin ApiResponseListener {
   static const int serviceUnavailable = 503;
   static const int noInternetConnection = -101;
   static const int unknown = -102;
+  static const int gatewayTimeout = 504 ;
 
   ApiErrorModel onHttpFailure(ApiResponse? response) {
     try {
