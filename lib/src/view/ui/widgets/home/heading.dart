@@ -29,7 +29,7 @@ class Heading extends StatelessWidget {
     final size = MediaQuery.of(context).size;
     return SafeArea(
       child: Row(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: [
@@ -57,7 +57,7 @@ class Heading extends StatelessWidget {
                         Text(
                           headingTxt,
                           style: const BaseTextStyle(
-                              fontSize: 24,
+                              fontSize: 16,
                               fontWeight: FontWeight.w700,
                               color: ColorConstants.primaryColor),
                         ),
@@ -77,7 +77,7 @@ class Heading extends StatelessWidget {
                       Text(
                         headingTxt,
                         style: const BaseTextStyle(
-                            fontSize: 24,
+                            fontSize: 16,
                             fontWeight: FontWeight.w700,
                             color: ColorConstants.primaryColor),
                       ),

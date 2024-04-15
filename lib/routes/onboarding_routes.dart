@@ -1,4 +1,6 @@
 import 'package:MoboPex/routes/route_constants.dart';
+import 'package:MoboPex/src/view/ui/screens/dashboard/dashboard.dart';
+import 'package:MoboPex/src/view/ui/screens/navigation/home/product_page.dart';
 import 'package:MoboPex/src/view/ui/screens/onboarding/register_screen.dart';
 import 'package:MoboPex/src/view/ui/screens/onboarding/welcome_screen.dart';
 import 'package:MoboPex/src/view/ui/screens/splash/splash_screen.dart';
@@ -33,8 +35,13 @@ class OnBoardingRoutes {
                  Scaffold(resizeToAvoidBottomInset: true, body: LoginScreen()),
             binding: TestBindings()),
         GetPage(
-          name: RouteConstants.testScreen,
-          page: () => const Test_Screen(),
+          name: RouteConstants.dashboard,
+          page: () => const  Dashboard(),
         ),
+
+    // GetPage(
+    //   name: RouteConstants.productDetailRoute,
+    //   page: () => const ProductPage(),
+    // ),
       ];
 }

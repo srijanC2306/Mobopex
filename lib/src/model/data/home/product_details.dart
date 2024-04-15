@@ -8,17 +8,25 @@ class ProductDetails {
 
   final String description;
 
-  final String imageUrl ;
+  final List<String> imageUrls ;
   final String priceFallInPercentage;
+
+  final String productType ;
+
+  final String productColor ;
+
+
 
   final String actualPrice;
 
   ProductDetails({
     required this.productName,
     required this.description,
-    required this.imageUrl ,
+    required this.imageUrls ,
     required this.priceFallInPercentage,
     required this.actualPrice,
+    required this.productType ,
+    required this.productColor ,
   });
 
   factory ProductDetails.fromJson(Map<String, dynamic> json) =>
